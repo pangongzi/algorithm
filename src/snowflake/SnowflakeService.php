@@ -43,7 +43,7 @@ class SnowflakeService extends BaseService
    * @param int $machineId 机器ID
    * @throws \InvalidArgumentException
    */
-  public function __construct($machineId)
+  public function __construct($machineId = 1)
   {
     parent::__construct();
 

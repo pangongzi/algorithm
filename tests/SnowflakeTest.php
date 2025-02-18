@@ -21,3 +21,12 @@ $id = $test->generate();
 
 var_dump($id);
 var_dump($test->encode($id));
+
+
+
+$test = SnowflakeService::getInstance(1);
+$id = $test->generate();
+
+
+var_dump($id);
+var_dump($test->encode($id));
