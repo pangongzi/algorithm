@@ -1,7 +1,7 @@
 # Pangongzi Algorithm | php 算法库
 
 ###  项目描述
-`pangongzi/algorithm` 是一个 PHP 库，提供了多种算法的实现，包括雪花算法等。
+`pangongzi/algorithm` 是一个 PHP 库，提供了多种算法的实现，包括雪花算法等。  
 目前仅有雪花算法
 
 ###  安装
@@ -38,6 +38,7 @@ $snowflake = new SnowflakeService(1); // 传入机器ID
 <?php
 $id = $snowflake->generate();
 echo "生成的唯一ID: " . $id . PHP_EOL;
+// int(546849135915962368)
 ```
 
 
@@ -49,6 +50,7 @@ echo "生成的唯一ID: " . $id . PHP_EOL;
 <?php
 $encodedId = SnowflakeService::encode($id);
 echo "Base62 编码后的ID: " . $encodedId . PHP_EOL;
+// string(10) "eOZdhSEnw0"
 ```
 
 
