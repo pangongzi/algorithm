@@ -1,0 +1,36 @@
+{
+  "name": "pangongzi/algorithm",
+  "description": "A PHP library for implementing various algorithms",
+  "type": "library",
+  "require": {
+    "php": ">=7.3"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Pangongzi\\Algorithm\\": "src/",
+      "Pangongzi\\Algorithm\\Snowflake\\": "src/snowflake/"
+    }
+  },
+  "authors": [
+    {
+      "name": "pangongzi",
+      "email": "pangongzi1989@gmail.com",
+      "homepage": "https://i.postimg.cc/hvvW2WWw/wechat.jpg"
+    }
+  ],
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/pangongzi/algorithm",
+  "keywords": [
+    "php",
+    "algorithm",
+    "snowflake",
+    "算法",
+    "雪花算法"
+  ],
+  "support": {
+    "email": "pangongzi1989@gmail.com",
+    "issues": "https://github.com/pangongzi/algorithm/issues",
+    "source": "https://github.com/pangongzi/algorithm"
+  }
+}
